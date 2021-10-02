@@ -1,6 +1,3 @@
-
-
-
 module.exports = class Jpg {
     // TODO: можно как-то присваивать объкту поля деструктуризацией?
     constructor(id, size, createdAt) {
@@ -15,6 +12,5 @@ module.exports = class Jpg {
             size: this.size,
             createdAt: this.createdAt,
         }
-
     }
 }
