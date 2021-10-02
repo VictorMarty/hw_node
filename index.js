@@ -3,7 +3,7 @@ const multer = require('multer');
 
 const app = express();
 const {PORT} = require('./config')
-const controllers = require('./controllers');
+
 app.use(express.static(__dirname));
 
 const {router} = require('./routers')
